@@ -1,6 +1,7 @@
 # npmtest-restangular
 
-test coverage for  [restangular (v1.6.1)](https://github.com/mgonto/restangular)  [![npm package](https://img.shields.io/npm/v/npmtest-restangular.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-restangular) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-restangular.svg)](https://travis-ci.org/npmtest/node-npmtest-restangular)
+#### basic test coverage for  [restangular (v1.6.1)](https://github.com/mgonto/restangular)  [![npm package](https://img.shields.io/npm/v/npmtest-restangular.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-restangular) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-restangular.svg)](https://travis-ci.org/npmtest/node-npmtest-restangular)
+
 #### Restful Resources service for AngularJS apps
 
 [![NPM](https://nodei.co/npm/restangular.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/restangular)
@@ -9,7 +10,7 @@ test coverage for  [restangular (v1.6.1)](https://github.com/mgonto/restangular)
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-restangular/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-restangular/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-restangular/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-restangular/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-restangular/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-restangular/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-restangular/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-restangular/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-restangular/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-restangular/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-restangular/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-restangular/build/coverage.html/index.html)
 
@@ -34,16 +35,41 @@ test coverage for  [restangular (v1.6.1)](https://github.com/mgonto/restangular)
 ```json
 
 {
-    "author": {
-        "name": "Martin Gontovnikas"
+    "name": "restangular",
+    "description": "Restful Resources service for AngularJS apps",
+    "version": "1.6.1",
+    "filename": "restangular.min.js",
+    "main": "./dist/restangular.js",
+    "homepage": "https://github.com/mgonto/restangular",
+    "author": "Martin Gontovnikas <martin@gon.to>",
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/mgonto/restangular.git"
     },
-    "bugs": {
-        "url": "https://github.com/mgonto/restangular/issues"
+    "engines": {
+        "node": ">= 0.9"
     },
+    "keywords": [
+        "angular",
+        "client",
+        "browser",
+        "restful",
+        "resources",
+        "rest",
+        "api"
+    ],
+    "maintainers": [
+        {
+            "name": "Martin Gontovnikas",
+            "website": "http://gon.to/"
+        }
+    ],
     "dependencies": {
         "lodash": "~4.17.0"
     },
-    "description": "Restful Resources service for AngularJS apps",
+    "peerDependencies": {
+        "angular": ">=1.3.12"
+    },
     "devDependencies": {
         "angular-mocks": "^1.4.8",
         "grunt": "^1.0.0",
@@ -66,52 +92,11 @@ test coverage for  [restangular (v1.6.1)](https://github.com/mgonto/restangular)
         "karma-mocha-reporter": "^2.2.0",
         "karma-phantomjs-launcher": "~v1.0.2"
     },
-    "directories": {},
-    "dist": {
-        "shasum": "add1743f27d77b0b8a652e6485a760b6234ed024",
-        "tarball": "https://registry.npmjs.org/restangular/-/restangular-1.6.1.tgz"
-    },
-    "engines": {
-        "node": ">= 0.9"
-    },
-    "filename": "restangular.min.js",
-    "gitHead": "7155bc78e838737e88a7588efbbe578a78bddec6",
-    "homepage": "https://github.com/mgonto/restangular",
-    "keywords": [
-        "angular",
-        "client",
-        "browser",
-        "restful",
-        "resources",
-        "rest",
-        "api"
-    ],
-    "license": "MIT",
-    "main": "./dist/restangular.js",
-    "maintainers": [
-        {
-            "name": "bostrom"
-        },
-        {
-            "name": "concurrenthashmap"
-        },
-        {
-            "name": "mgonto"
-        }
-    ],
-    "name": "restangular",
-    "optionalDependencies": {},
-    "peerDependencies": {
-        "angular": ">=1.3.12"
-    },
-    "repository": {
-        "type": "git",
-        "url": "git://github.com/mgonto/restangular.git"
-    },
     "scripts": {
         "test": "grunt test --verbose"
     },
-    "version": "1.6.1"
+    "license": "MIT",
+    "bin": {}
 }
 ```
 

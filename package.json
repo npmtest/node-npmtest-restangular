@@ -1,6 +1,6 @@
 {
     "author": "kai zhu <kaizhu256@gmail.com>",
-    "description": "test coverage for  [restangular (v1.6.1)](https://github.com/mgonto/restangular)  [![npm package](https://img.shields.io/npm/v/npmtest-restangular.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-restangular) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-restangular.svg)](https://travis-ci.org/npmtest/node-npmtest-restangular)",
+    "description": "#### basic test coverage for  [restangular (v1.6.1)](https://github.com/mgonto/restangular)  [![npm package](https://img.shields.io/npm/v/npmtest-restangular.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-restangular) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-restangular.svg)](https://travis-ci.org/npmtest/node-npmtest-restangular)",
     "devDependencies": {
         "electron-lite": "kaizhu256/node-electron-lite#alpha",
         "restangular": "*",
@@ -36,5 +36,5 @@
         "start": "PORT=${PORT:-8080} utility2 start test.js",
         "test": "(set -e; export PORT=$(utility2 shServerPortRandom); utility2 test test.js)"
     },
-    "version": "0.0.1"
+    "version": "2017.4.25"
 }
