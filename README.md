@@ -35,41 +35,16 @@
 ```json
 
 {
-    "name": "restangular",
-    "description": "Restful Resources service for AngularJS apps",
-    "version": "1.6.1",
-    "filename": "restangular.min.js",
-    "main": "./dist/restangular.js",
-    "homepage": "https://github.com/mgonto/restangular",
-    "author": "Martin Gontovnikas <martin@gon.to>",
-    "repository": {
-        "type": "git",
-        "url": "git://github.com/mgonto/restangular.git"
+    "author": {
+        "name": "Martin Gontovnikas"
     },
-    "engines": {
-        "node": ">= 0.9"
+    "bugs": {
+        "url": "https://github.com/mgonto/restangular/issues"
     },
-    "keywords": [
-        "angular",
-        "client",
-        "browser",
-        "restful",
-        "resources",
-        "rest",
-        "api"
-    ],
-    "maintainers": [
-        {
-            "name": "Martin Gontovnikas",
-            "website": "http://gon.to/"
-        }
-    ],
     "dependencies": {
         "lodash": "~4.17.0"
     },
-    "peerDependencies": {
-        "angular": ">=1.3.12"
-    },
+    "description": "Restful Resources service for AngularJS apps",
     "devDependencies": {
         "angular-mocks": "^1.4.8",
         "grunt": "^1.0.0",
@@ -92,10 +67,52 @@
         "karma-mocha-reporter": "^2.2.0",
         "karma-phantomjs-launcher": "~v1.0.2"
     },
+    "directories": {},
+    "dist": {
+        "shasum": "add1743f27d77b0b8a652e6485a760b6234ed024",
+        "tarball": "https://registry.npmjs.org/restangular/-/restangular-1.6.1.tgz"
+    },
+    "engines": {
+        "node": ">= 0.9"
+    },
+    "filename": "restangular.min.js",
+    "gitHead": "7155bc78e838737e88a7588efbbe578a78bddec6",
+    "homepage": "https://github.com/mgonto/restangular",
+    "keywords": [
+        "angular",
+        "client",
+        "browser",
+        "restful",
+        "resources",
+        "rest",
+        "api"
+    ],
+    "license": "MIT",
+    "main": "./dist/restangular.js",
+    "maintainers": [
+        {
+            "name": "bostrom"
+        },
+        {
+            "name": "concurrenthashmap"
+        },
+        {
+            "name": "mgonto"
+        }
+    ],
+    "name": "restangular",
+    "optionalDependencies": {},
+    "peerDependencies": {
+        "angular": ">=1.3.12"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/mgonto/restangular.git"
+    },
     "scripts": {
         "test": "grunt test --verbose"
     },
-    "license": "MIT",
+    "version": "1.6.1",
     "bin": {}
 }
 ```
