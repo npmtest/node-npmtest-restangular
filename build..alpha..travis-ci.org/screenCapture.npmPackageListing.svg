@@ -1,21 +1,21 @@
 <svg height="286" width="720" xmlns="http://www.w3.org/2000/svg">
 <rect height="286" fill="#555" width="720"></rect>
 <text fill="#7f7" font-family="Courier New" font-size="12" xml:space="preserve">
-<tspan x="10" y="26">  0.  2017-04-24 17:28:01 +0000   332810 bytes  .</tspan>
-<tspan x="10" y="42">  1.  2017-04-24 17:28:01 +0000     4592 bytes  CHANGELOG.md</tspan>
-<tspan x="10" y="58">  2.  2017-04-24 17:28:01 +0000     2190 bytes  CONTRIBUTING.md</tspan>
-<tspan x="10" y="74">  3.  2017-04-24 17:28:01 +0000     5024 bytes  Gruntfile.js</tspan>
-<tspan x="10" y="90">  4.  2017-04-24 17:28:01 +0000        0 bytes  MAINTENANCE.md</tspan>
-<tspan x="10" y="106">  5.  2017-04-24 17:28:01 +0000    63654 bytes  README.md</tspan>
-<tspan x="10" y="122">  6.  2017-04-24 17:28:01 +0000      362 bytes  bower.json</tspan>
-<tspan x="10" y="138">  7.  2017-04-24 17:28:01 +0000    52883 bytes  dist/restangular.js</tspan>
-<tspan x="10" y="154">  8.  2017-04-24 17:28:01 +0000    21374 bytes  dist/restangular.min.js</tspan>
-<tspan x="10" y="170">  9.  2017-04-24 17:28:01 +0000    74515 bytes  dist/restangular.zip</tspan>
-<tspan x="10" y="186"> 10.  2017-04-24 17:28:01 +0000     2047 bytes  karma.conf.js</tspan>
-<tspan x="10" y="202"> 11.  2017-04-24 17:28:01 +0000     1756 bytes  karma.underscore.conf.js</tspan>
-<tspan x="10" y="218"> 12.  2017-04-24 17:28:01 +0000     1103 bytes  license.md</tspan>
-<tspan x="10" y="234"> 13.  2017-04-24 17:28:01 +0000     1497 bytes  package.json</tspan>
-<tspan x="10" y="250"> 14.  2017-04-24 17:28:01 +0000    52640 bytes  src/restangular.js</tspan>
-<tspan x="10" y="266"> 15.  2017-04-24 17:28:01 +0000    49173 bytes  test/restangularSpec.js</tspan>
+<tspan x="10" y="26">  0.  2017-04-26 03:44:27 +0000   334619 bytes  .</tspan>
+<tspan x="10" y="42">  1.  2017-04-26 03:44:27 +0000     4592 bytes  CHANGELOG.md</tspan>
+<tspan x="10" y="58">  2.  2017-04-26 03:44:27 +0000     2190 bytes  CONTRIBUTING.md</tspan>
+<tspan x="10" y="74">  3.  2017-04-26 03:44:27 +0000     5024 bytes  Gruntfile.js</tspan>
+<tspan x="10" y="90">  4.  2017-04-26 03:44:27 +0000        0 bytes  MAINTENANCE.md</tspan>
+<tspan x="10" y="106">  5.  2017-04-26 03:44:27 +0000    63654 bytes  README.md</tspan>
+<tspan x="10" y="122">  6.  2017-04-26 03:44:27 +0000      362 bytes  bower.json</tspan>
+<tspan x="10" y="138">  7.  2017-04-26 03:44:27 +0000    52883 bytes  dist/restangular.js</tspan>
+<tspan x="10" y="154">  8.  2017-04-26 03:44:27 +0000    21374 bytes  dist/restangular.min.js</tspan>
+<tspan x="10" y="170">  9.  2017-04-26 03:44:27 +0000    74515 bytes  dist/restangular.zip</tspan>
+<tspan x="10" y="186"> 10.  2017-04-26 03:44:27 +0000     2047 bytes  karma.conf.js</tspan>
+<tspan x="10" y="202"> 11.  2017-04-26 03:44:27 +0000     1756 bytes  karma.underscore.conf.js</tspan>
+<tspan x="10" y="218"> 12.  2017-04-26 03:44:27 +0000     1103 bytes  license.md</tspan>
+<tspan x="10" y="234"> 13.  2017-04-26 03:44:27 +0000     3306 bytes  package.json</tspan>
+<tspan x="10" y="250"> 14.  2017-04-26 03:44:27 +0000    52640 bytes  src/restangular.js</tspan>
+<tspan x="10" y="266"> 15.  2017-04-26 03:44:27 +0000    49173 bytes  test/restangularSpec.js</tspan>
 </text>
 </svg>
